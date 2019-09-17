@@ -1,15 +1,16 @@
 # start
-
-vaken = "n"
+# vakna upp
+vaken = "n" # Den tillverkar man en variabel med en sträng
 
 print("Du sover djupt som björnen i iden...")
 
 while vaken == "n":
-    vaken = input("Har du vaknat [y/n] ").lower()
+    vaken = input("Har du vaknat [y/n] ").lower() # Här skapas en .lower-funktion som repeterar processen.
 
+# Duschen
 print("Du går direkt in i duschen.")
 print("Du har råkat använda brödrosten i duschen.")
-
+# Skapa if, elif och else funktionerna
 duscha = input("Flyttar du på brödrosten? [y/n] ").lower()
 if duscha == "n":
     print("Du får en elektriskt shock och det är slutet")
